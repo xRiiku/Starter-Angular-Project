@@ -1,0 +1,36 @@
+@import 'tailwindcss';
+
+
+:root {
+  --cl_corp: #4a90e2;
+  --cl_corp2: #50e3c2;
+  --cl_text: #333333;
+  --cl_border: #e0e0e0;
+  --cl_background_body: #fdfbf8;
+  --cl_background_white: #fff;
+  --cl_background_dark: #19314b;
+  --cl_background_gray: #eee;
+
+  --font-titles: 'Helvetica Neue', Arial, sans-serif;
+  --font-subtitles: 'Georgia', serif;
+  --font-pretitles: 'Courier New', Courier, monospace;
+  --font-text: 'Courier New', Courier, monospace;
+
+  --font-size-10: 10px;
+  --font-size-12: 12px;
+  --font-size-14: 14px;
+  --font-size-16: 16px;
+  --font-size-18: 18px;
+  --font-size-20: 20px;
+  --font-size-24: 24px;
+  --font-size-32: 32px;
+  --font-size-36: 36px;
+
+  --font-weight-100: 100;
+  --font-weight-200: 200;
+  --font-weight-300: 300;
+  --font-weight-400: 400;
+  --font-weight-500: 500;
+  --font-weight-600: 600;
+  --font-weight-700: 700;
+}
