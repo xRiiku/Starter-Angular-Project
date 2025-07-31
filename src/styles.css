@@ -3,8 +3,17 @@
 
 :root {
   --cl_corp: #4a90e2;
+  --cl_corp_hover: #357ab8;
   --cl_corp2: #50e3c2;
+  --cl_corp2_hover: #3abf9a;
+  --cl_pretitle: #7f8c8d;
+  --cl_pretitle_hover: #6c7a89;
+  --cl_title: #2c3e50;
+  --cl_title_hover: #1a242f;
+  --cl_subtitle: #34495e;
+  --cl_subtitle_hover: #2c3e50;
   --cl_text: #333333;
+  --cl_text_hover: #2c3e50;
   --cl_border: #e0e0e0;
   --cl_background_body: #fdfbf8;
   --cl_background_white: #fff;
@@ -70,11 +79,38 @@
 .color-corp {
   color: var(--cl_corp);
 }
+.color-corp-hover {
+  color: var(--cl_corp_hover);
+}
 .color-corp2 {
   color: var(--cl_corp2);
 }
+.color-corp2-hover {
+  color: var(--cl_corp2_hover);
+}
+.color-pretitle {
+  color: var(--cl_pretitle);
+}
+.color-pretitle-hover {
+  color: var(--cl_pretitle_hover);
+}
+.color-title {
+  color: var(--cl_title);
+}
+.color-title-hover {
+  color: var(--cl_title_hover);
+}
+.color-subtitle {
+  color: var(--cl_subtitle);
+}
+.color-subtitle-hover {
+  color: var(--cl_subtitle_hover);
+}
 .color-text {
   color: var(--cl_text);
+}
+.color-text-hover {
+  color: var(--cl_text_hover);
 }
 
 /* FONT FAMILY */
