@@ -20,6 +20,7 @@
   --cl_background_dark: #19314b;
   --cl_background_gray: #eee;
 
+  --font-page: 'arsenica-variable', Arial, sans-serif;
   --font-titles: 'arsenica-variable', Arial, sans-serif;
   --font-subtitles: 'omnes-pro', serif;
   --font-pretitles: 'omnes-pro', Courier, monospace;
@@ -126,6 +127,9 @@
 .font-text {
   font-family: var(--font-text);
 }
+.font-page {
+  font-family: var(--font-page);
+}
 
 /* FONT SIZE */
 .font-size-10 {
@@ -206,4 +210,19 @@
 }
 .border-radius-full {
   border-radius: var(--border-radius-full);
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--font-page), Arial, sans-serif;
+  background-color: var(--cl_background_body);
+  color: var(--cl_text);
+  font-size: 16px;
+  line-height: 1.6;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
