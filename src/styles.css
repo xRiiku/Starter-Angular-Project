@@ -20,10 +20,10 @@
   --cl_background_dark: #19314b;
   --cl_background_gray: #eee;
 
-  --font-titles: 'Helvetica Neue', Arial, sans-serif;
-  --font-subtitles: 'Georgia', serif;
-  --font-pretitles: 'Courier New', Courier, monospace;
-  --font-text: 'Courier New', Courier, monospace;
+  --font-titles: 'arsenica-variable', Arial, sans-serif;
+  --font-subtitles: 'omnes-pro', serif;
+  --font-pretitles: 'omnes-pro', Courier, monospace;
+  --font-text: 'arsenica-variable', Courier, monospace;
 
   --font-size-10: 10px;
   --font-size-12: 12px;
