@@ -212,6 +212,9 @@
   border-radius: var(--border-radius-full);
 }
 
+.uppercase{
+  text-transform: uppercase;
+}
 
 body {
   margin: 0;
