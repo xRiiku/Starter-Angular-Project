@@ -13,7 +13,7 @@
   --cl_subtitle: #34495e;
   --cl_subtitle_hover: #2c3e50;
   --cl_text: #333333;
-  --cl_text_light: #fff
+  --cl_text_light: #fff;
   --cl_text_hover: #2c3e50;
   --cl_border: #e0e0e0;
   --cl_background_body: #fdfbf8;
@@ -216,20 +216,18 @@
   border-radius: var(--border-radius-full);
 }
 
-.text-uppercase{
+.text-uppercase {
   text-transform: uppercase;
 }
+
 
 body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: var(--font-page), Arial, sans-serif;
   background-color: var(--cl_background_body);
   color: var(--cl_text);
-  font-size: 16px;
+  font-family: var(--font-page), Arial, sans-serif;
+  font-size: var(--font-size-16);
   line-height: 1.6;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
 }
