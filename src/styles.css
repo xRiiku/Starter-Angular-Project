@@ -216,7 +216,7 @@
   border-radius: var(--border-radius-full);
 }
 
-.uppercase{
+.text-uppercase{
   text-transform: uppercase;
 }
 
